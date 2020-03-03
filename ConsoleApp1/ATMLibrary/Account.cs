@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ATMLibrary
 {
-    public class Class1
+    public class Account
     {
         //fields and data
         private double balance;
@@ -30,12 +30,12 @@ namespace ATMLibrary
 
 
         //Constructors
-        public Class1()
+        public Account()
         {
             balance = 1000;
             pin = "1234";
         }
-        public Class1(double bal, string pinnr)
+        public Account(double bal, string pinnr)
         {
             balance = bal;
             pin = pinnr;
@@ -48,7 +48,7 @@ namespace ATMLibrary
         }
 
         //class methods
-
+         
 
     }
 }
