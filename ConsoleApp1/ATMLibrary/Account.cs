@@ -27,6 +27,25 @@ namespace ATMLibrary
                 value = pin;
             }
         }
+        private double newbalance;
+        public double Newbalance
+        {
+            get { return newbalance; }
+            set
+            {
+                value = newbalance;
+            }
+        }
+        private double userinput;
+        public double Userinput
+        {
+            get { return userinput; }
+            set
+            {
+                value = userinput;
+            }
+        }
+
 
 
         //Constructors
@@ -48,7 +67,12 @@ namespace ATMLibrary
         }
 
         //class methods
-         
+        public double Withdraw()
+        {           
+            balance - userinput = newbalance;
+
+            return newbalance;
+        }
 
     }
 }
